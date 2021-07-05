@@ -1,0 +1,287 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  background-color: #313131;
+  border: 5px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .phone {
+  width: 428px;
+  height: 926px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+body .phone .phone-tools {
+  width: 100%;
+  height: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px 20px 0 0px;
+  position: relative;
+}
+
+body .phone .phone-tools .phone-time {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.6em;
+  width: 80px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+body .phone .phone-tools .phone-time p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+body .phone .phone-tools .çentik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 3vh;
+  border-radius: 0 0 20px 20px;
+  background-color: black;
+}
+
+body .phone .phone-tools .çentik span {
+  width: 40px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: white;
+  display: block;
+}
+
+body .phone .phone-tools .çentik span::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-left: 3em;
+  margin-top: -0.1em;
+  border-radius: 100%;
+  background-color: white;
+  display: block;
+}
+
+body .phone .phone-tools .phone-buttons {
+  height: 100%;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+body .phone .phone-tools .phone-buttons em {
+  margin: 0.2em;
+}
+
+body .phone .phone-tools .phone-buttons .icon-wifi,
+body .phone .phone-tools .phone-buttons .icon-battery {
+  font-size: 17px;
+}
+
+body .phone .instagram-header-buttons {
+  margin-top: 1em;
+  width: 100%;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .phone .instagram-header-buttons .instagram-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  height: 100%;
+  padding-top: 0.4em;
+  padding-left: 0.5em;
+}
+
+body .phone .instagram-header-buttons .instagram-logo img {
+  width: 100%;
+}
+
+body .phone .instagram-header-buttons .instagram-buttons {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 0.5em;
+}
+
+body .phone .instagram-header-buttons .instagram-buttons em {
+  padding: 0;
+  margin: 0;
+  margin: 0 0.3em;
+}
+
+body .phone .instagram-header-buttons .instagram-buttons .icon-add {
+  font-size: 33px;
+  margin-top: 3px;
+}
+
+body .phone .instagram-header-buttons .instagram-buttons .icon-heart {
+  font-size: 30px;
+}
+
+body .phone .instagram-header-buttons .instagram-buttons img {
+  width: 30px;
+}
+
+body .phone .instagram-stories {
+  margin-top: 0.5em;
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-left: 0.5em;
+}
+
+body .phone .instagram-stories span {
+  width: 72px;
+  height: 72px;
+  border: 3px solid #DF4C8D;
+  background-color: black;
+  margin: 0 0.75em;
+  border-radius: 100%;
+  position: relative;
+}
+
+body .phone .instagram-stories span em {
+  position: absolute;
+  right: -0.5vh;
+  top: 4vh;
+  color: #28a0ee;
+  border-radius: 100%;
+  font-size: 1.75em;
+}
+
+body .phone .instagram-stories .first {
+  margin-left: 0;
+}
+
+body .phone .instagram-stories .abs {
+  z-index: 0;
+  right: -3.6em;
+  position: absolute;
+}
+
+body .phone .instagram-posts {
+  width: 100%;
+  height: 70vh;
+}
+
+body .phone .instagram-footer-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 7.5vh;
+}
+
+body .phone .instagram-footer-buttons em {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.5em;
+  margin: 0 0.7em;
+}
+
+body .phone .instagram-footer-buttons em:nth-child(1) {
+  margin-left: 0.2em;
+}
+
+body .phone .instagram-footer-buttons em:nth-child(5) {
+  border-radius: 100%;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

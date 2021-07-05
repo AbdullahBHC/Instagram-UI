@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color: #313131;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .phone {
+        width: 428px;
+        height: 926px;
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 20px;
+
+        .phone-tools {
+            width: 100%;
+            height: 3vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            border-radius: 20px 20px 0 0px;
+            position: relative;
+
+            .phone-time {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                padding-left: 0.6em;
+                width: 80px;
+                height: 100%;
+                left: 0;
+                top: 0;
+
+                p {
+                    text-align: center;
+                    font-size: 1em;
+                    font-weight: 700;
+                }
+            }
+
+            .çentik {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 250px;
+                height: 3vh;
+                border-radius: 0 0 20px 20px;
+                background-color: black;
+
+                span {
+                    width: 40px;
+                    height: 4px;
+                    border-radius: 50px;
+                    background-color: white;
+                    display: block;
+                }
+
+                span::after {
+                    content: "";
+                    width: 8px;
+                    height: 8px;
+                    margin-left: 3em;
+                    margin-top: -0.1em;
+                    border-radius: 100%;
+                    background-color: white;
+                    display: block;
+                }
+
+            }
+
+            .phone-buttons {
+                height: 100%;
+                position: absolute;
+                right: 10px;
+                top: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                font-size: 13px;
+
+
+                em {
+                    margin: 0.2em;
+                }
+
+                .icon-wifi,
+                .icon-battery {
+                    font-size: 17px;
+                }
+            }
+        }
+
+        .instagram-header-buttons {
+            margin-top: 1em;
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            flex-direction: row;
+
+            .instagram-logo {
+                display: flex;
+                align-items: center;
+                width: 30%;
+                height: 100%;
+                padding-top: 0.4em;
+                padding-left: 0.5em;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .instagram-buttons {
+                width: 70%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding-right: 0.5em;
+
+                em {
+                    padding: 0;
+                    margin: 0;
+                    margin: 0 0.3em;
+                }
+
+                .icon-add {
+                    font-size: 33px;
+                    margin-top: 3px;
+                }
+
+                .icon-heart {
+                    font-size: 30px;
+                }
+
+
+                img {
+                    width: 30px;
+                }
+            }
+        }
+
+        .instagram-stories {
+            margin-top: 0.5em;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            padding-left: 0.5em;
+
+            span {
+                width: 72px;
+                height: 72px;
+                border: 3px solid #DF4C8D;
+                background-color: black;
+                margin: 0 0.75em;
+                border-radius: 100%;
+                position: relative;
+
+                em {
+                    position: absolute;
+                    right: -0.5vh;
+                    top: 4vh;
+                    color: #28a0ee;
+                    // background-color: white;
+                    border-radius: 100%;
+                    font-size: 1.75em;
+                }
+            }
+
+            .first {
+                margin-left: 0;
+            }
+
+            .abs {
+                z-index: 0;
+                right: -3.6em;
+                position: absolute;
+            }
+        }
+
+        .instagram-posts {
+            width: 100%;
+            height: 70vh;
+        }
+
+        .instagram-footer-buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            height: 7.5vh;
+
+            em {
+                display: flex;
+                font-size: 2.5em;
+                margin: 0 0.7em;
+            }
+
+            em:nth-child(1) {
+                margin-left: 0.2em;
+            }
+
+            em:nth-child(5) {
+                border-radius: 100%;
+                background-color: black;
+            }
+        }
+    }
+}
